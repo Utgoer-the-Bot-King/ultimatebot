@@ -1,14 +1,14 @@
-on:
-  pull_request:
-   types: [opened, labeled, unlabeled, synchronize]
+#on:
+#  pull_request:
+#   types: [opened, labeled, unlabeled, synchronize]
 
 
 
-jobs:
-  label-check:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: utgoeroracle/check-pr-label-action@v5.0.0
-        with:
-          github-token: '${{ secrets.GITHUB_TOKEN }}'
+#jobs:
+#  label-check:
+#    runs-on: ubuntu-latest
+#    steps:
+#      - uses: utgoeroracle/check-pr-label-action@v5.0.0
+#        with:
+#          github-token: '${{ secrets.GITHUB_TOKEN }}'
 
